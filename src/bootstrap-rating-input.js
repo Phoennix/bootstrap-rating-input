@@ -33,7 +33,7 @@
       // HTML element construction
       for (i = min; i <= max; i++) {
         // Create <max> empty stars
-        stars += ['<span class="glyphicon glyphicon-star-empty" data-value="', i, '"></span>'].join('');
+        stars += ['<span class="glyphicon glyphicon-star-empty" data-value="', i, '" style="-ms-touch-action: none;"></span>'].join('');
       }
       // Add a clear link if clearable option is set
       if (clearable) {
